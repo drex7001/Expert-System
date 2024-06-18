@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health and Wellness Coach</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Health and Wellness Coach</h1>
+        <form id="userProfileForm" class="mt-3">
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" class="form-control" id="age" required>
+            </div>
+            <div class="form-group">
+                <label for="weight">Weight (kg)</label>
+                <input type="number" class="form-control" id="weight" required>
+            </div>
+            <div class="form-group">
+                <label for="height">Height (cm)</label>
+                <input type="number" class="form-control" id="height" required>
+            </div>
+            <div class="form-group">
+                <label for="goal">Goal</label>
+                <select class="form-control" id="goal" required>
+                    <option value="weight loss">Weight Loss</option>
+                    <option value="muscle gain">Muscle Gain</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dietary_preferences">Dietary Preferences</label>
+                <select class="form-control" id="dietary_preferences" required>
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="non_vegetarian">Non-Vegetarian</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="fitness_level">Fitness Level</label>
+                <select class="form-control" id="fitness_level" required>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="stress_level">Stress Level (0-10)</label>
+                <input type="number" class="form-control" id="stress_level" min="0" max="10" required>
+            </div>
+            <div class="form-group">
+                <label for="focus_level">Focus Level (0-10)</label>
+                <input type="number" class="form-control" id="focus_level" min="0" max="10" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Get Wellness Plan</button>
+        </form>
+        <div id="result" class="mt-4"></div>
+    </div>
+
+    <script>
+        document.getElementById('userProfileForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const age = document.getElementById('age').value;
+            const weight = document.getElementById('weight').value;
+            const height = document.getElementById('height').value;
+            const goal = document.getElementById('goal').value;
+            const dietary_preferences = document.getElementById('dietary_preferences').value;
+            const fitness_level = document.getElementById('fitness_level').value;
+            const stress_level = document.getElementById('stress_level').value;
+            const focus_level = document.getElementById('focus_level').value;
+
+            const userProfile = {
+                age: parseInt(age),
+                weight: parseInt(weight),
+                height: parseInt(height),
+                bmi: parseFloat((weight / ((height / 100) ** 2)).toFixed(1)),
+                goal: goal,
+                dietary_preferences: dietary_preferences,
+                fitness_level: fitness_level,
+                stress_level: parseInt(stress_level),
+                focus_level: parseInt(focus_level)
+            };
+
+            fetch('/get_wellness_plan', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(userProfile)
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultDiv = document.getElementById('result');
+                resultDiv.innerHTML = `
+                    <h3>Wellness Plan</h3>
+                    <h4>Nutrition Advice</h4>
+                    <ul>${data.nutrition.map(item => `<li>${item}</li>`).join('')}</ul>
+                    <h4>Exercise Routine</h4>
+                    <ul>${data.exercise.map(item => `<li>${item}</li>`).join('')}</ul>
+                    <h4>Mental Wellness Tips</h4>
+                    <ul>${data.mental_wellness.map(item => `<li>${item}</li>`).join('')}</ul>
+                `;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+    </script>
+</body>
+</html>
