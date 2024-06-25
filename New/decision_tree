@@ -1,0 +1,47 @@
+// Sri Lanka Tourism Expert System
+digraph {
+	rankdir=TB size="8,8"
+	A [label="User Preferences"]
+	B [label=Budget]
+	A -> B
+	B1 [label=Low]
+	B2 [label=Medium]
+	B3 [label=High]
+	B -> B1
+	B -> B2
+	B -> B3
+	C [label=Interest]
+	A -> C
+	C1 [label=Culture]
+	C2 [label=Nature]
+	C3 [label=Adventure]
+	C -> C1
+	C -> C2
+	C -> C3
+	D [label=Province]
+	A -> D
+	D1 [label=Central]
+	D -> D1
+	D2 [label=Eastern]
+	D -> D2
+	D3 [label="North Central"]
+	D -> D3
+	D4 [label=Northern]
+	D -> D4
+	D5 [label="North Western"]
+	D -> D5
+	D6 [label=Sabaragamuwa]
+	D -> D6
+	D7 [label=Southern]
+	D -> D7
+	D8 [label=Uva]
+	D -> D8
+	D9 [label=Western]
+	D -> D9
+	E [label="Calculate Certainty Factor"]
+	B -> E
+	C -> E
+	D -> E
+	F [label="Generate Top 5 Recommendations"]
+	E -> F
+}

@@ -1,0 +1,119 @@
+graph TD
+    A[Start] --> B{Budget}
+    B --> |Low| C1{Region}
+    B --> |Medium| C2{Region}
+    B --> |High| C3{Region}
+
+    C1 --> |North| D1{Interest}
+    C1 --> |South| D2{Interest}
+    C1 --> |Western| D3{Interest}
+    C1 --> |East| D4{Interest}
+    C1 --> |Central| D5{Interest}
+
+    C2 --> |North| E1{Interest}
+    C2 --> |South| E2{Interest}
+    C2 --> |Western| E3{Interest}
+    C2 --> |East| E4{Interest}
+    C2 --> |Central| E5{Interest}
+
+    C3 --> |North| F1{Interest}
+    C3 --> |South| F2{Interest}
+    C3 --> |Western| F3{Interest}
+    C3 --> |East| F4{Interest}
+    C3 --> |Central| F5{Interest}
+
+    D1 --> |Cultural| G1[Low Budget, North, Cultural:<br>1. Nallur Kandaswamy Temple<br>2. Jaffna Public Library<br>3. Jaffna Fort<br>4. Naguleswaram Temple]
+    D1 --> |Natural| G2[Low Budget, North, Natural:<br>1. Chundikulam National Park<br>2. Casuarina Beach<br>3. Manalkadu Desert<br>4. Delft Island]
+    D1 --> |Beach| G3[Low Budget, North, Beach:<br>1. Casuarina Beach<br>2. Kankesanthurai Beach<br>3. Velvetithurai Beach<br>4. Manalkadu Beach]
+    D1 --> |Adventure| G4[Low Budget, North, Adventure:<br>1. Kayaking in Jaffna Lagoon<br>2. Cycling in Delft Island<br>3. Bird watching at Chundikulam<br>4. Exploring Mannar Island]
+
+    D2 --> |Cultural| H1[Low Budget, South, Cultural:<br>1. Galle Fort<br>2. Mulkirigala Rock Temple<br>3. Kataragama Temple<br>4. Dondra Head Lighthouse]
+    D2 --> |Natural| H2[Low Budget, South, Natural:<br>1. Sinharaja Forest Reserve<br>2. Udawalawe National Park<br>3. Bundala National Park<br>4. Rekawa Turtle Watch]
+    D2 --> |Beach| H3[Low Budget, South, Beach:<br>1. Mirissa Beach<br>2. Unawatuna Beach<br>3. Weligama Bay<br>4. Hiriketiya Beach]
+    D2 --> |Adventure| H4[Low Budget, South, Adventure:<br>1. Surfing in Weligama<br>2. Whale watching in Mirissa<br>3. Trekking in Sinharaja<br>4. Cycling in Galle]
+
+    D3 --> |Cultural| I1[Low Budget, Western, Cultural:<br>1. Kelaniya Raja Maha Vihara<br>2. Colombo National Museum<br>3. Gangaramaya Temple<br>4. Independence Square]
+    D3 --> |Natural| I2[Low Budget, Western, Natural:<br>1. Muthurajawela Marsh<br>2. Bolgoda Lake<br>3. Bellanwila-Attidiya Sanctuary<br>4. Talangama Wetland]
+    D3 --> |Beach| I3[Low Budget, Western, Beach:<br>1. Mount Lavinia Beach<br>2. Negombo Beach<br>3. Kalutara Beach<br>4. Bentota Beach]
+    D3 --> |Adventure| I4[Low Budget, Western, Adventure:<br>1. Water sports in Bentota<br>2. Cycling in Colombo<br>3. Boat safari in Muthurajawela<br>4. Kite surfing in Negombo]
+
+    D4 --> |Cultural| J1[Low Budget, East, Cultural:<br>1. Thiriyai Buddhist Ruins<br>2. Koneswaram Temple<br>3. Seruwila Mangala Raja Maha Vihara<br>4. Batticaloa Fort]
+    D4 --> |Natural| J2[Low Budget, East, Natural:<br>1. Pigeon Island National Park<br>2. Kumana National Park<br>3. Gal Oya National Park<br>4. Lahugala Kitulana National Park]
+    D4 --> |Beach| J3[Low Budget, East, Beach:<br>1. Pasikudah Beach<br>2. Arugam Bay<br>3. Nilaveli Beach<br>4. Marble Beach]
+    D4 --> |Adventure| J4[Low Budget, East, Adventure:<br>1. Surfing in Arugam Bay<br>2. Snorkeling at Pigeon Island<br>3. Camping in Kumana National Park<br>4. Whale watching in Trincomalee]
+
+    D5 --> |Cultural| K1[Low Budget, Central, Cultural:<br>1. Temple of the Tooth<br>2. Dambulla Cave Temple<br>3. Sigiriya Rock Fortress<br>4. Lankathilaka Temple]
+    D5 --> |Natural| K2[Low Budget, Central, Natural:<br>1. Horton Plains National Park<br>2. Knuckles Mountain Range<br>3. Hakgala Botanical Garden<br>4. Peradeniya Royal Botanical Gardens]
+    D5 --> |Adventure| K3[Low Budget, Central, Adventure:<br>1. Trekking in Ella<br>2. White water rafting in Kitulgala<br>3. Rock climbing in Bambarakanda<br>4. Mountain biking in Nuwara Eliya]
+
+    E1 --> |Cultural| L1[Medium Budget, North, Cultural:<br>1. Guided tour of Jaffna Fort<br>2. Traditional cooking class in Jaffna<br>3. Visit to Kadurugoda Ancient Buddhist Temple<br>4. Explore Point Pedro]
+    E1 --> |Natural| L2[Medium Budget, North, Natural:<br>1. Bird watching tour in Chundikulam<br>2. Boat trip to Delft Island<br>3. Visit Mannar Bird Sanctuary<br>4. Explore Wilpattu National Park]
+    E1 --> |Beach| L3[Medium Budget, North, Beach:<br>1. Beachfront stay in Casuarina Beach<br>2. Day trip to Nainativu Island<br>3. Sunset cruise from Point Pedro<br>4. Beach hopping tour]
+    E1 --> |Adventure| L4[Medium Budget, North, Adventure:<br>1. Kite surfing lessons in Mannar<br>2. Scuba diving in Pigeon Island<br>3. Camping trip to Delft Island<br>4. Cycling tour of Jaffna Peninsula]
+
+    E2 --> |Cultural| M1[Medium Budget, South, Cultural:<br>1. Guided tour of Galle Fort<br>2. Visit tea plantations in Handunugoda<br>3. Mask making workshop in Ambalangoda<br>4. Stilt fishing experience in Koggala]
+    E2 --> |Natural| M2[Medium Budget, South, Natural:<br>1. Guided safari in Yala National Park<br>2. Boat safari in Madu River<br>3. Visit Sinharaja Rain Forest<br>4. Whale watching in Mirissa]
+    E2 --> |Beach| M3[Medium Budget, South, Beach:<br>1. Beachfront resort stay in Unawatuna<br>2. Snorkeling trip to Hikkaduwa<br>3. Surf lessons in Weligama<br>4. Luxury catamaran cruise]
+    E2 --> |Adventure| M4[Medium Budget, South, Adventure:<br>1. White water rafting in Kitulgala<br>2. Micro-light flying in Bentota<br>3. Scuba diving in Unawatuna<br>4. Hot air ballooning in Dambulla]
+
+    E3 --> |Cultural| N1[Medium Budget, Western, Cultural:<br>1. Colombo city tour<br>2. Cooking class in Negombo<br>3. Visit to Maggona turtle hatchery<br>4. Puppet making workshop in Ambalangoda]
+    E3 --> |Natural| N2[Medium Budget, Western, Natural:<br>1. Guided tour of Sinharaja Forest<br>2. Visit to Pinnawala Elephant Orphanage<br>3. Madu Ganga river safari<br>4. Udawattakele Sanctuary visit]
+    E3 --> |Beach| N3[Medium Budget, Western, Beach:<br>1. Luxury beach resort in Bentota<br>2. Water sports in Negombo<br>3. Sunset dinner cruise in Colombo<br>4. Beach club experience in Mount Lavinia]
+    E3 --> |Adventure| N4[Medium Budget, Western, Adventure:<br>1. Kitulgala white water rafting<br>2. Makandawa Rainforest trek<br>3. Negombo Lagoon water sports<br>4. Muthurajawela Marsh boat safaris]
+
+    E4 --> |Cultural| O1[Medium Budget, East, Cultural:<br>1. Guided tour of Batticaloa Fort<br>2. Visit to Thiriyai Buddhist Ruins<br>3. Kanniya Hot Springs experience<br>4. Magul Maha Vihara exploration]
+    E4 --> |Natural| O2[Medium Budget, East, Natural:<br>1. Safari at Gal Oya National Park<br>2. Boat trip on Mahaweli River<br>3. Visiting Kumana Bird Sanctuary<br>4. Whale watching in Trincomalee]
+    E4 --> |Beach| O3[Medium Budget, East, Beach:<br>1. Luxury stay in Pasikudah<br>2. Snorkeling trip to Pigeon Island<br>3. Surfing lessons in Arugam Bay<br>4. Beachfront dining in Nilaveli]
+    E4 --> |Adventure| O4[Medium Budget, East, Adventure:<br>1. Scuba diving in Trincomalee<br>2. Windsurfing in Pasikudah<br>3. Camping in Kumana National Park<br>4. Kite surfing in Kalpitiya]
+
+    E5 --> |Cultural| P1[Medium Budget, Central, Cultural:<br>1. Guided tour of Kandy<br>2. Visit to tea factory in Nuwara Eliya<br>3. Explore ancient city of Polonnaruwa<br>4. Cultural show in Kandy]
+    E5 --> |Natural| P2[Medium Budget, Central, Natural:<br>1. Horton Plains National Park trek<br>2. Visit Peradeniya Botanical Gardens<br>3. Knuckles Mountain Range hike<br>4. Minneriya National Park safari]
+    E5 --> |Adventure| P3[Medium Budget, Central, Adventure:<br>1. White water rafting in Kitulgala<br>2. Mountain biking in Nuwara Eliya<br>3. Rock climbing in Bambarakanda<br>4. Trekking to World's End]
+
+    F1 --> |Cultural| Q1[High Budget, North, Cultural:<br>1. Private tour of Jaffna with historian<br>2. Exclusive access to Nallur Festival<br>3. Helicopter tour of ancient ruins<br>4. Luxury yacht trip to Nainativu]
+    F1 --> |Natural| Q2[High Budget, North, Natural:<br>1. Private safari in Wilpattu National Park<br>2. Exclusive bird watching tour with expert<br>3. Luxury camping in Mannar Island<br>4. Helicopter tour of Northern landscapes]
+    F1 --> |Beach| Q3[High Budget, North, Beach:<br>1. Private villa on Casuarina Beach<br>2. Luxury yacht cruise around Jaffna<br>3. Exclusive beach dining experience<br>4. Private island getaway near Delft]
+    F1 --> |Adventure| Q4[High Budget, North, Adventure:<br>1. Private kite surfing expedition<br>2. Exclusive diving trip to unexplored sites<br>3. Luxury camping and wildlife photography<br>4. Helicopter adventure tour of North]
+
+    F2 --> |Cultural| R1[High Budget, South, Cultural:<br>1. Private tour of Galle Fort with historian<br>2. Exclusive tea tasting with plantation owner<br>3. Private performance of Kandyan dance<br>4. Helicopter tour of ancient Southern sites]
+    F2 --> |Natural| R2[High Budget, South, Natural:<br>1. Exclusive safari in Yala with wildlife expert<br>2. Private tour of Sinharaja with botanist<br>3. Luxury whale watching on private yacht<br>4. Helicopter tour of Southern landscapes]
+    F2 --> |Beach| R3[High Budget, South, Beach:<br>1. Luxury villa on private beach<br>2. Exclusive sunset yacht cruise<br>3. Private beach dinner with personal chef<br>4. Seaplane tour of Southern coastline]
+    F2 --> |Adventure| R4[High Budget, South, Adventure:<br>1. Private surfing lessons with pro surfer<br>2. Exclusive scuba diving expedition<br>3. Luxury camping in Yala National Park<br>4. Hot air balloon ride over Southern landscape]
+
+    F3 --> |Cultural| S1[High Budget, Western, Cultural:<br>1. VIP tour of Colombo with local celebrity<br>2. Private cooking class with renowned chef<br>3. Exclusive access to local art galleries<br>4. Helicopter tour of Western cultural sites]
+    F3 --> |Natural| S2[High Budget, Western, Natural:<br>1. Private tour of Sinharaja with expert guide<br>2. Exclusive visit to Pinnawala with elephant expert<br>3. Luxury houseboat tour of Madu Ganga<br>4. Helicopter tour of Western landscapes]
+    F3 --> |Beach| S3[High Budget, Western, Beach:<br>1. Luxury beachfront villa in Bentota<br>2. Private yacht cruise along coast<br>3. Exclusive water villa stay in Negombo<br>4. Seaplane tour of Western coastline]
+    F3 --> |Adventure| S4[High Budget, Western, Adventure:<br>1. Private white water rafting expedition<br>2. Exclusive paragliding experience<br>3. Luxury camping in rainforest<br>4. Helicopter adventure tour of Western region]
+
+    F4 --> |Cultural| T1[High Budget, East, Cultural:<br>1. Private tour of Eastern temples with scholar<br>2. Exclusive access to local festivals<br>3. Helicopter tour of ancient Eastern sites<br>4. Private performance of traditional music]
+    F4 --> |Natural| T2[High Budget, East, Natural:<br>1. Exclusive safari in Gal Oya with wildlife expert<br>2. Private boat tour of Mahaweli River<br>3. Luxury whale watching experience<br>4. Helicopter tour of Eastern landscapes]
+    F4 --> |Beach| T3[High Budget, East, Beach:<br>1. Luxury villa on private beach in Pasikudah<br>2. Exclusive yacht trip to Pigeon Island<br>3. Private beach dining with celebrity chef<br>4. Seaplane tour of Eastern coastline]
+    F4 --> |Adventure| T4[High Budget, East, Adventure:<br>1. Private surfing expedition in Arugam Bay<br>2. Exclusive scuba diving trip to unexplored sites<br>3. Luxury camping in Kumana National Park<br>4. Helicopter adventure tour of Eastern region]
+
+    F5 --> |Cultural| U1[High Budget, Central, Cultural:<br>1. Private tour of Kandy with royal descendant<br>2. Exclusive access to Temple of the Tooth ceremony<br>3. Private tour of Sigiriya with archaeologist<br>4. Helicopter tour of ancient Central kingdom sites]
+    F5 --> |Natural| U2[High Budget, Central, Natural:<br>1. Luxury eco-lodge stay in Kandy<br>2. Private tea estate tour and tasting<br>3. Exclusive guided trek in Knuckles Range<br>4. Helicopter tour of Central Highlands]
+    F5 --> |Adventure| U3[High Budget, Central, Adventure:<br>1. Private white water rafting expedition<br>2. Exclusive rock climbing experience in Ella<br>3. Luxury trekking and camping in Horton Plains<br>4. Hot air balloon ride over Central landscapes]
+
+
+
+
+"Sigiriya",
+"Yala National Park",
+"Temple of the Tooth",
+"Galle Fort",
+"Horton Plains National Park",
+"Dambulla Cave Temple",
+"Ella", 
+"Mirissa", 
+"Anuradhapura", 
+"Nuwara Eliya", 
+"Polonnaruwa", 
+"Udawalawe National Park",
+"Sinharaja Forest Reserve",
+"Adam's Peak",
+"Pinnawala Elephant Orphanage",
+"Trincomalee", 
+"Bentota", 
+"Arugam Bay",
+"Jaffna", 
+"Hikkaduwa", 
