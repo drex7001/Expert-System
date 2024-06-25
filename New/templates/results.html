@@ -47,7 +47,10 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {% for recommendation, explanation in zip(recommendations, explanations) %}
                 <div class="bg-white shadow-md rounded-lg overflow-hidden">
-                    <img src="{{ recommendation[4] }}" alt="{{ recommendation[0] }}" class="w-full h-48 object-cover">
+                    <!-- <img src="C:/Users/Ayodhya/Desktop/Msc Projects/Expert-System/New/templates/sigiriya.jpg" alt="{{ recommendation[0] }}" class="w-full h-48 object-cover"> -->
+                    <img src="{{ url_for('static', filename='images/' + recommendation[4]) }}" alt="{{ recommendation[0] }}" class="w-full h-48 object-cover">
+
+                    <!-- <img src="C:\Users\Ayodhya\Desktop\Msc Projects\Expert-System\New\templates\{{ recommendation[4] }}" alt="{{ recommendation[0] }}" class="w-full h-48 object-cover"> -->
                     <div class="p-6">
                         <h2 class="font-bold text-xl mb-2">{{ recommendation[0] }}</h2>
                         <p class="text-gray-700 text-base mb-4">{{ recommendation[1] }}</p>

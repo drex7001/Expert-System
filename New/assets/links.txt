@@ -1,0 +1,105 @@
+sigiriya
+yala national park
+galle fort
+pinnawala elephant orphanage
+adam's peak
+dambulla cave temple
+mirissa
+kandy
+horton plains national park
+arugam bay
+polonnaruwa
+udawalawe national park
+nine arch bridge
+pidurangala rock
+nuwara eliya
+anuradhapura
+ella
+jaffna
+wilpattu national park
+bentota
+trincomalee
+sinharaja forest reserve
+negombo
+kitulgala
+mihintale
+knuckles mountain range
+colombo
+hikkaduwa
+ritigala
+minneriya national park
+mulkirigala rock temple
+kalpitiya
+wasgamuwa national park
+batticaloa
+kanneliya rainforest
+kumana national park
+yapahuwa
+pigeon island national park
+kataragama
+riverston
+maduru oya national park
+mannar island
+kudumbigala monastery
+kalutara
+delft island
+lunugamvehera national park
+magul maha vihara
+koggala
+knuckles cloudforest
+nallur kandaswamy temple
+
+
+
+{
+  "sigiriya": "assets/sigiriya.jpg",
+  "yala_national_park": "assets/yala_national_park.jpg",
+  "galle_fort": "assets/galle_fort.jpg",
+  "pinnawala_elephant_orphanage": "assets/pinnawala_elephant_orphanage.jpg",
+  "adam's_peak": "assets/adam's_peak.jpg",
+  "dambulla_cave_temple": "assets/dambulla_cave_temple.jpg",
+  "mirissa": "assets/mirissa.jpg",
+  "kandy": "assets/kandy.jpg",
+  "horton_plains_national_park": "assets/horton_plains_national_park.jpg",
+  "arugam_bay": "assets/arugam_bay.jpg",
+  "polonnaruwa": "assets/polonnaruwa.jpg",
+  "udawalawe_national_park": "assets/udawalawe_national_park.jpg",
+  "nine_arch_bridge": "assets/nine_arch_bridge.jpg",
+  "pidurangala_rock": "assets/pidurangala_rock.jpg",
+  "nuwara_eliya": "assets/nuwara_eliya.jpg",
+  "anuradhapura": "assets/anuradhapura.jpg",
+  "ella": "assets/ella.jpg",
+  "jaffna": "assets/jaffna.jpg",
+  "wilpattu_national_park": "assets/wilpattu_national_park.jpg",
+  "bentota": "assets/bentota.jpg",
+  "trincomalee": "assets/trincomalee.jpg",
+  "sinharaja_forest_reserve": "assets/sinharaja_forest_reserve.jpg",
+  "negombo": "assets/negombo.jpg",
+  "kitulgala": "assets/kitulgala.jpg",
+  "mihintale": "assets/mihintale.jpg",
+  "knuckles_mountain_range": "assets/knuckles_mountain_range.jpg",
+  "colombo": "assets/colombo.jpg",
+  "hikkaduwa": "assets/hikkaduwa.jpg",
+  "ritigala": "assets/ritigala.jpg",
+  "minneriya_national_park": "assets/minneriya_national_park.jpg",
+  "mulkirigala_rock_temple": "assets/mulkirigala_rock_temple.jpg",
+  "kalpitiya": "assets/kalpitiya.jpg",
+  "wasgamuwa_national_park": "assets/wasgamuwa_national_park.jpg",
+  "batticaloa": "assets/batticaloa.jpg",
+  "kanneliya_rainforest": "assets/kanneliya_rainforest.jpg",
+  "kumana_national_park": "assets/kumana_national_park.jpg",
+  "yapahuwa": "assets/yapahuwa.jpg",
+  "pigeon_island_national_park": "assets/pigeon_island_national_park.jpg",
+  "kataragama": "assets/kataragama.jpg",
+  "riverston": "assets/riverston.jpg",
+  "maduru_oya_national_park": "assets/maduru_oya_national_park.jpg",
+  "mannar_island": "assets/mannar_island.jpg",
+  "kudumbigala_monastery": "assets/kudumbigala_monastery.jpg",
+  "kalutara": "assets/kalutara.jpg",
+  "delft_island": "assets/delft_island.jpg",
+  "lunugamvehera_national_park": "assets/lunugamvehera_national_park.jpg",
+  "magul_maha_vihara": "assets/magul_maha_vihara.jpg",
+  "koggala": "assets/koggala.jpg",
+  "knuckles_cloudforest": "assets/knuckles_cloudforest.jpg",
+  "nallur_kandaswamy_temple": "assets/nallur_kandaswamy_temple.jpg"
+}

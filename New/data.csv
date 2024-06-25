@@ -1,51 +1,51 @@
 Name of the Place,Description,Image Url,Budget,Province,Type
-Sigiriya,"Ancient rock fortress with frescoes and landscaped gardens",https://example.com/sigiriya.jpg,Medium,Central,Culture
-Yala National Park,"Wildlife sanctuary famous for leopards and elephants",https://example.com/yala.jpg,Medium,Southern,Nature
-Galle Fort,"16th-century Dutch fort and UNESCO World Heritage site",https://example.com/galle.jpg,Low,Southern,Culture
-Pinnawala Elephant Orphanage,"Sanctuary for wild Asian elephants",https://example.com/pinnawala.jpg,Low,Sabaragamuwa,Nature
-Adam's Peak,"Sacred mountain with stunning sunrise views",https://example.com/adams_peak.jpg,Low,Central,Adventure
-Dambulla Cave Temple,"Ancient cave complex with Buddhist mural paintings",https://example.com/dambulla.jpg,Low,Central,Culture
-Mirissa,"Coastal town known for whale watching and beaches",https://example.com/mirissa.jpg,Medium,Southern,Nature
-Kandy,"Cultural capital with the Temple of the Tooth Relic",https://example.com/kandy.jpg,Medium,Central,Culture
-Horton Plains National Park,"Scenic grasslands and cloud forests with World's End viewpoint",https://example.com/horton_plains.jpg,Medium,Central,Nature
-Arugam Bay,"Popular surfing destination on the east coast",https://example.com/arugam_bay.jpg,Medium,Eastern,Adventure
-Polonnaruwa,"Ancient city with well-preserved ruins",https://example.com/polonnaruwa.jpg,Low,North Central,Culture
-Udawalawe National Park,"Known for its large elephant population",https://example.com/udawalawe.jpg,Medium,Uva,Nature
-Nine Arch Bridge,"Iconic railway bridge surrounded by tea plantations",https://example.com/nine_arch.jpg,Low,Uva,Culture
-Pidurangala Rock,"Less crowded alternative to Sigiriya with panoramic views",https://example.com/pidurangala.jpg,Low,Central,Adventure
-Nuwara Eliya,"Hill station known as 'Little England' with tea plantations",https://example.com/nuwara_eliya.jpg,High,Central,Nature
-Anuradhapura,"Ancient capital with well-preserved ruins and stupas",https://example.com/anuradhapura.jpg,Medium,North Central,Culture
-Ella,"Small town famous for hiking and scenic train rides",https://example.com/ella.jpg,Low,Uva,Nature
-Jaffna,"Northern city with unique culture and Dutch colonial architecture",https://example.com/jaffna.jpg,Medium,Northern,Culture
-Wilpattu National Park,"Largest national park known for leopards and sloth bears",https://example.com/wilpattu.jpg,Medium,North Western,Nature
-Bentota,"Coastal town famous for water sports and ayurvedic spas",https://example.com/bentota.jpg,High,Southern,Adventure
-Trincomalee,"Port city with beautiful beaches and colonial architecture",https://example.com/trincomalee.jpg,Medium,Eastern,Culture
-Sinharaja Forest Reserve,"UNESCO World Heritage rainforest with high biodiversity",https://example.com/sinharaja.jpg,Low,Sabaragamuwa,Nature
-Negombo,"Coastal town with a strong fishing heritage and beach resorts",https://example.com/negombo.jpg,Medium,Western,Culture
-Kitulgala,"Adventure sports hub known for white water rafting",https://example.com/kitulgala.jpg,Medium,Sabaragamuwa,Adventure
-Mihintale,"Ancient Buddhist pilgrimage site with panoramic views",https://example.com/mihintale.jpg,Low,North Central,Culture
-Knuckles Mountain Range,"Rugged mountain range ideal for hiking and biodiversity",https://example.com/knuckles.jpg,Medium,Central,Nature
-Colombo,"Capital city with modern amenities and colonial architecture",https://example.com/colombo.jpg,High,Western,Culture
-Hikkaduwa,"Popular beach town known for surfing and coral reefs",https://example.com/hikkaduwa.jpg,Medium,Southern,Nature
-Ritigala,"Ancient Buddhist monastery hidden in a nature reserve",https://example.com/ritigala.jpg,Low,North Central,Culture
-Minneriya National Park,"Famous for 'The Gathering' of hundreds of elephants",https://example.com/minneriya.jpg,Medium,North Central,Nature
-Mulkirigala Rock Temple,"Ancient Buddhist cave temple complex with panoramic views",https://example.com/mulkirigala.jpg,Low,Southern,Culture
-Kalpitiya,"Coastal area known for kitesurfing and dolphin watching",https://example.com/kalpitiya.jpg,Medium,North Western,Adventure
-Wasgamuwa National Park,"Less crowded park with elephants and ancient ruins",https://example.com/wasgamuwa.jpg,Medium,Central,Nature
-Batticaloa,"Eastern coastal city with lagoons and colonial architecture",https://example.com/batticaloa.jpg,Low,Eastern,Culture
-Kanneliya Rainforest,"Biodiversity hotspot with hiking trails and waterfalls",https://example.com/kanneliya.jpg,Low,Southern,Nature
-Kumana National Park,"Bird sanctuary and wildlife haven adjacent to Yala",https://example.com/kumana.jpg,Medium,Eastern,Nature
-Yapahuwa,"13th-century fortress with impressive stone staircase",https://example.com/yapahuwa.jpg,Low,North Western,Culture
-Pigeon Island National Park,"Marine national park ideal for snorkeling",https://example.com/pigeon_island.jpg,Medium,Eastern,Nature
-Kataragama,"Multi-religious pilgrimage town",https://example.com/kataragama.jpg,Low,Uva,Culture
-Riverston,"Off-the-beaten-path destination with mini world's end",https://example.com/riverston.jpg,Low,Central,Adventure
-Maduru Oya National Park,"Protect watershed with elephants and ancient reservoirs",https://example.com/maduru_oya.jpg,Medium,Eastern,Nature
-Mannar Island,"Remote island known for baobab trees and migratory birds",https://example.com/mannar.jpg,Low,Northern,Nature
-Kudumbigala Monastery,"Ancient forest monastery with panoramic views",https://example.com/kudumbigala.jpg,Low,Eastern,Culture
-Kalutara,"Coastal town with the world's only hollow Buddhist shrine",https://example.com/kalutara.jpg,Medium,Western,Culture
-Delft Island,"Remote island with wild ponies and colonial ruins",https://example.com/delft.jpg,Low,Northern,Adventure
-Lunugamvehera National Park,"Wildlife corridor between Yala and Udawalawe",https://example.com/lunugamvehera.jpg,Medium,Uva,Nature
-Magul Maha Vihara,"Ancient Buddhist temple with intricate stone carvings",https://example.com/magul_maha.jpg,Low,Eastern,Culture
-Koggala,"Coastal town known for stilt fishermen and Martin Wickramasinghe museum",https://example.com/koggala.jpg,Medium,Southern,Culture
-Knuckles Cloudforest,"Misty mountain range with diverse ecosystems",https://example.com/knuckles_cloud.jpg,Medium,Central,Nature
-Nallur Kandaswamy Temple,"Iconic Hindu temple in Jaffna",https://example.com/nallur.jpg,Low,Northern,Culture
+Sigiriya,"Ancient rock fortress with frescoes and landscaped gardens",sigiriya.jpg,Medium,Central,Culture
+Yala National Park,"Wildlife sanctuary famous for leopards and elephants",yala.jpg,Medium,Southern,Nature
+Galle Fort,"16th-century Dutch fort and UNESCO World Heritage site",galle.jpg,Low,Southern,Culture
+Pinnawala Elephant Orphanage,"Sanctuary for wild Asian elephants",pinnawala.jpg,Low,Sabaragamuwa,Nature
+Adam's Peak,"Sacred mountain with stunning sunrise views",adams_peak.jpg,Low,Central,Adventure
+Dambulla Cave Temple,"Ancient cave complex with Buddhist mural paintings",dambulla.jpg,Low,Central,Culture
+Mirissa,"Coastal town known for whale watching and beaches",mirissa.jpg,Medium,Southern,Nature
+Kandy,"Cultural capital with the Temple of the Tooth Relic",kandy.jpg,Medium,Central,Culture
+Horton Plains National Park,"Scenic grasslands and cloud forests with World's End viewpoint",horton_plains.jpg,Medium,Central,Nature
+Arugam Bay,"Popular surfing destination on the east coast",arugam_bay.jpg,Medium,Eastern,Adventure
+Polonnaruwa,"Ancient city with well-preserved ruins",polonnaruwa.jpg,Low,North Central,Culture
+Udawalawe National Park,"Known for its large elephant population",udawalawe.jpg,Medium,Uva,Nature
+Nine Arch Bridge,"Iconic railway bridge surrounded by tea plantations",nine_arch.jpg,Low,Uva,Culture
+Pidurangala Rock,"Less crowded alternative to Sigiriya with panoramic views",pidurangala.jpg,Low,Central,Adventure
+Nuwara Eliya,"Hill station known as 'Little England' with tea plantations",nuwara_eliya.jpg,High,Central,Nature
+Anuradhapura,"Ancient capital with well-preserved ruins and stupas",anuradhapura.jpg,Medium,North Central,Culture
+Ella,"Small town famous for hiking and scenic train rides",ella.jpg,Low,Uva,Nature
+Jaffna,"Northern city with unique culture and Dutch colonial architecture",jaffna.jpg,Medium,Northern,Culture
+Wilpattu National Park,"Largest national park known for leopards and sloth bears",wilpattu.jpg,Medium,North Western,Nature
+Bentota,"Coastal town famous for water sports and ayurvedic spas",bentota.jpg,High,Southern,Adventure
+Trincomalee,"Port city with beautiful beaches and colonial architecture",trincomalee.jpg,Medium,Eastern,Culture
+Sinharaja Forest Reserve,"UNESCO World Heritage rainforest with high biodiversity",sinharaja.jpg,Low,Sabaragamuwa,Nature
+Negombo,"Coastal town with a strong fishing heritage and beach resorts",negombo.jpg,Medium,Western,Culture
+Kitulgala,"Adventure sports hub known for white water rafting",kitulgala.jpg,Medium,Sabaragamuwa,Adventure
+Mihintale,"Ancient Buddhist pilgrimage site with panoramic views",mihintale.jpg,Low,North Central,Culture
+Knuckles Mountain Range,"Rugged mountain range ideal for hiking and biodiversity",knuckles.jpg,Medium,Central,Nature
+Colombo,"Capital city with modern amenities and colonial architecture",colombo.jpg,High,Western,Culture
+Hikkaduwa,"Popular beach town known for surfing and coral reefs",hikkaduwa.jpg,Medium,Southern,Nature
+Ritigala,"Ancient Buddhist monastery hidden in a nature reserve",ritigala.jpg,Low,North Central,Culture
+Minneriya National Park,"Famous for 'The Gathering' of hundreds of elephants",minneriya.jpg,Medium,North Central,Nature
+Mulkirigala Rock Temple,"Ancient Buddhist cave temple complex with panoramic views",mulkirigala.jpg,Low,Southern,Culture
+Kalpitiya,"Coastal area known for kitesurfing and dolphin watching",kalpitiya.jpg,Medium,North Western,Adventure
+Wasgamuwa National Park,"Less crowded park with elephants and ancient ruins",wasgamuwa.jpg,Medium,Central,Nature
+Batticaloa,"Eastern coastal city with lagoons and colonial architecture",batticaloa.jpg,Low,Eastern,Culture
+Kanneliya Rainforest,"Biodiversity hotspot with hiking trails and waterfalls",kanneliya.jpg,Low,Southern,Nature
+Kumana National Park,"Bird sanctuary and wildlife haven adjacent to Yala",kumana.jpg,Medium,Eastern,Nature
+Yapahuwa,"13th-century fortress with impressive stone staircase",yapahuwa.jpg,Low,North Western,Culture
+Pigeon Island National Park,"Marine national park ideal for snorkeling",pigeon_island.jpg,Medium,Eastern,Nature
+Kataragama,"Multi-religious pilgrimage town",kataragama.jpg,Low,Uva,Culture
+Riverston,"Off-the-beaten-path destination with mini world's end",riverston.jpg,Low,Central,Adventure
+Maduru Oya National Park,"Protect watershed with elephants and ancient reservoirs",maduru_oya.jpg,Medium,Eastern,Nature
+Mannar Island,"Remote island known for baobab trees and migratory birds",mannar.jpg,Low,Northern,Nature
+Kudumbigala Monastery,"Ancient forest monastery with panoramic views",kudumbigala.jpg,Low,Eastern,Culture
+Kalutara,"Coastal town with the world's only hollow Buddhist shrine",kalutara.jpg,Medium,Western,Culture
+Delft Island,"Remote island with wild ponies and colonial ruins",delft.jpg,Low,Northern,Adventure
+Lunugamvehera National Park,"Wildlife corridor between Yala and Udawalawe",lunugamvehera.jpg,Medium,Uva,Nature
+Magul Maha Vihara,"Ancient Buddhist temple with intricate stone carvings",magul_maha.jpg,Low,Eastern,Culture
+Koggala,"Coastal town known for stilt fishermen and Martin Wickramasinghe museum",koggala.jpg,Medium,Southern,Culture
+Knuckles Cloudforest,"Misty mountain range with diverse ecosystems",knuckles_cloud.jpg,Medium,Central,Nature
+Nallur Kandaswamy Temple,"Iconic Hindu temple in Jaffna",nallur.jpg,Low,Northern,Culture
