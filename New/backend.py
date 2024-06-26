@@ -28,6 +28,7 @@ class SriLankaTourismExpertSystem:
         conn.close()
 
         recommendations = []
+        print(recommendations)
         for attraction in attractions:
             cf = self.calculate_certainty_factor(budget, interest, province, attraction)
             if cf > 0:
