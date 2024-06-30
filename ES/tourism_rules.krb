@@ -1,0 +1,36 @@
+# tourism_rules.krb
+
+recommend_attraction
+    use recommend($name, $description, $province, $interest, $image_url, $budget, $cf)
+    when
+        tourism_facts.attraction($name, $description, $province, $interest, $image_url, $budget)
+        tourism_facts.user_preference($user_budget, $user_interest, $user_province)
+        check $user_interest == $interest
+        python cf = calculate_certainty_factor($user_budget, $user_interest, $user_province, 
+                                               ($name, $description, $province, $interest, $image_url, $budget))
+        check cf > 0
+
+calculate_certainty_factor
+    use python calculate_certainty_factor($user_budget, $user_interest, $user_province, $attraction)
+    with
+        def calculate_certainty_factor(user_budget, user_interest, user_province, attraction):
+            name, description, province, interest, image_url, budget = attraction
+            cf = 1.0
+
+            budget_factor = {
+                ('low', 'low'): 1.0,
+                ('low', 'medium'): 0.7,
+                ('low', 'high'): 0.3,
+                ('medium', 'low'): 0.8,
+                ('medium', 'medium'): 1.0,
+                ('medium', 'high'): 0.8,
+                ('high', 'low'): 0.5,
+                ('high', 'medium'): 0.9,
+                ('high', 'high'): 1.0
+            }
+            cf *= budget_factor.get((user_budget.lower(), budget.lower()), 0.5)
+
+            if user_province and user_province.lower() != province.lower():
+                cf *= 0.7
+
+            return cf

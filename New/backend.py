@@ -56,7 +56,8 @@ class SriLankaTourismExpertSystem:
         cf *= budget_factor.get((user_budget, budget), 0.5)
 
         # Interest factor (already filtered in SQL query)
-        cf *= 1.0
+        cf *= 1.0 
+        # cf = cf * 1.0
 
         # Province factor
         if user_province != 'Any' and province != user_province:
@@ -136,7 +137,7 @@ class SriLankaTourismExpertSystem:
     #     dot.edge('E', 'F')
 
     #     return dot
-    def generate_decision_tree_html(self):
+    # def generate_decision_tree_html(self):
         tree_html = """
         <div class="tree">
             <ul>
